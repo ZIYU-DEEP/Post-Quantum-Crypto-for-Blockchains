@@ -60,10 +60,10 @@ decrypt_symmetric(private_key_encrypted🔐, key💊) = private_key🔑
 
 ## 🕹 Instructions
 The codes are structured as follows:
-- [demo.ipynb](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/demo.ipynb): If you are just looking for one file demonstrating all, this is what you need.
-- [qure.py](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/encryption.py): This file can be seen as a package providing encryption and decryption functions using KEM (Key Encapsulation Mechanism) and SKE (Symmetric Key Encryption).
-- [encryption.py](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/encryption.py): Given the `user_id` and the user specified `private_key`, this file runs an KEM + SKE protocol. The encrypted information are stored in [json](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/database/leviathan/0.json) in our [database](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/tree/main/database/), while user can hold an abstract of the information in another [local json file](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/database/leviathan/0_local.json), containing `user_id`, `key_id`, `kem_algo`, and `ciphertext_abs`.
-- [transaction.py](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/transaction.py): This file implements the transaction, while the user only need to provide the information in the aforementioned [local json file](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/database/leviathan/0_local.json). The true private key is never transmitted.
+- [demo.ipynb](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/demo.ipynb): If you are just looking for one file demonstrating all, this is what you need.
+- [qure.py](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/encryption.py): This file can be seen as a package providing encryption and decryption functions using KEM (Key Encapsulation Mechanism) and SKE (Symmetric Key Encryption).
+- [encryption.py](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/encryption.py): Given the `user_id` and the user specified `private_key`, this file runs an KEM + SKE protocol. The encrypted information are stored in [json](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/database/leviathan/0.json) in our [database](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/tree/main/database/), while user can hold an abstract of the information in another [local json file](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/database/leviathan/0_local.json), containing `user_id`, `key_id`, `kem_algo`, and `ciphertext_abs`.
+- [transaction.py](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/transaction.py): This file implements the transaction, while the user only need to provide the information in the aforementioned [local json file](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/database/leviathan/0_local.json). The true private key is never transmitted.
 
 Those example commands are tested with Python 3.8 (see requirements in the next section).
 ```bash
@@ -90,7 +90,7 @@ python request.py --user_id leviathan\
                   --gas_price 200000000\
                   --root ./database
 ```
-The command line operations above are also implemented in [demo.ipynb](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchain/blob/main/demo.ipynb) through IPython interations.
+The command line operations above are also implemented in [demo.ipynb](https://github.com/ZIYU-DEEP/post-quantum-crypto-for-blockchains/blob/main/demo.ipynb) through IPython interations.
 
 ## 🕹 Requirements
 ```bash
