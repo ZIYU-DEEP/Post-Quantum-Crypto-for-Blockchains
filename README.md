@@ -1,9 +1,9 @@
 # 😈 Post-Quantum Cryptography for Web3
 
 As Marilyn Monroe once sang:
-> *Every baby needs a da-da-daddy*
-> *To keep her worry free*
-> *Rich or poor I don't care who*
+> *Every baby needs a da-da-daddy*\
+> *To keep her worry free*\
+> *Rich or poor I don't care who*\
 > *If he hasn't got a million then a half will do* 💸
 
 This repository helps you to become that da-da-daddy, by allowing you worry free of hacking on your private keys while transfering your coins on blockchains.
