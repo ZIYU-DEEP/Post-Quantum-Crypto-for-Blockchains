@@ -6,14 +6,14 @@ As Marilyn Monroe once sang:
 > *Rich or poor I don't care who*\
 > *If he hasn't got a million then a half will do* 💸
 
-This repository helps you to become that da-da-daddy, by allowing you worry free of hacking on your private keys while transfering your coins on blockchains.
+This repository helps you to become your own da-da-daddy, to keep you worry free of hacking on your account while transfering coins on blockchains.
 
-Technically, this package constructs hybrid encryption for private keys with the KEM (Key Encapsulation Mechanism) paradigm, which is a post-quantum safe encryption paradigm. This README file is organized as follows:
+Technically, this package constructs hybrid encryption for private keys with the KEM (Key Encapsulation Mechanism) paradigm, which is proved to be post-quantum safe. This README file is organized as follows:
 - [KEM Illustrations](#-kem-illustrations)
 - [High Level Goal](#-high-level-goal)
 - [Instructions](#-instructions)
-- [Configure Your Own Testnet](#-configure-your-own-testnet)
 - [Requirements](#-requirements)
+- [Configure Your Own Testnet](#-configure-your-own-testnet)
 
 ## 🕹 KEM Illustrations
 ![kem-illustration](images/kem-illustration.png)
@@ -124,6 +124,7 @@ The following commands are tested on MacOS Catalina with Python 3.8.
 ```
 
 ## 🕹 Configure Your Own Testnet
+You may test the efficacy of the encryption using a testnet (instead of the main ETH chain) first. Here is a quick intro for testnet configuration.
 1. Register an [Alchemy account](https://www.alchemy.com/).
 2. Follow the [instruction](https://docs.alchemy.com/docs/alchemy-quickstart-guide) to create an [new Alchemy App](https://dashboard.alchemy.com/apps) and get an API key. For test, simply select Etherum as the chain and Goerili as the network.
 3. Create an [Metamask](https://metamask.io/) profile for your wallet.
