@@ -6,7 +6,7 @@ As Marilyn Monroe once sang:
 > *Rich or poor I don't care who*\
 > *If he hasn't got a million then a half will do* 💸
 
-This repository helps you to become your own da-da-daddy, to keep you worry free of hacking on your account while transfering coins on blockchains.
+Life is hard to stay as a baby, but this repository may help you become your own da-da-daddy, to keep you worry free of hacking on your account while transfering coins on blockchains.
 
 Technically, this package constructs hybrid encryption for private keys with the KEM (Key Encapsulation Mechanism) paradigm, which is proved to be post-quantum safe. This README file is organized as follows:
 - [KEM Illustrations](#-kem-illustrations)
